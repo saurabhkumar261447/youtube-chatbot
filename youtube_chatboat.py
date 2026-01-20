@@ -11,7 +11,7 @@ from langchain_core.prompts import ChatPromptTemplate
 # CONFIG
 # ----------------------------
 HF_TOKEN = os.getenv("HUGGINGFACEHUB_API_TOKEN")
-# HF_TOKEN = "hf_akPUbrODTZGELGiFiQTUiHeNArmGeRJc"
+# HF_TOKEN = "hf_xxxxxxxxxxxxxxxxxxxxxxxxxx"   ### use your own token here for directly using hardcoded values 
 EMBEDDING_MODEL = "skzentence-transformers/all-MiniLM-L6-v2"
 LLM_MODEL = "HuggingFaceH4/zephyr-7b-beta"
 
@@ -143,3 +143,4 @@ if __name__ == "__main__":
     qa_chain = build_qa_chain(vectorstore)
 
     chat_loop(qa_chain)
+
