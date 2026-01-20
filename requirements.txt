@@ -1,0 +1,8 @@
+pydantic
+langchain-huggingface
+langchain-core
+huggingface-hub
+transformers
+accelerate
+typing-extensions
+langchain-community
